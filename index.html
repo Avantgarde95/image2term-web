@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image2Term</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="header">Image2Term</h1>
+      <div class="controls">
+        <div class="control-label">Upload an image</div>
+        <button class="control-button">
+          Click to upload
+          <img class="control-preview" src="assets/monalisa.jpg" alt="Preview" />
+        </button>
+        <div class="control-label">Write a word to repeat</div>
+        <input class="control-input" type="text" value="MONALISA" />
+        <div class="control-label">Number of times to repeat the word</div>
+        <input class="control-input" type="number" value="9" />
+        <button class="control-button control-button-special">Generate</button>
+      </div>
+      <canvas class="board" />
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
