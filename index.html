@@ -14,17 +14,17 @@
       <h1 class="header">Image2Term</h1>
       <div class="controls">
         <div class="control-label">Upload an image</div>
-        <button class="control-button">
+        <button class="control-button control-upload">
           Click to upload
-          <img class="control-preview" src="assets/monalisa.jpg" alt="Preview" />
+          <img class="control-preview" alt="Preview" />
         </button>
         <div class="control-label">Write a word to repeat</div>
-        <input class="control-input" type="text" value="MONALISA" />
-        <div class="control-label">Number of times to repeat the word</div>
+        <input class="control-input control-word" type="text" value="MONALISA" />
+        <div class="control-label control-repeat">Number of times to repeat the word</div>
         <input class="control-input" type="number" value="9" />
-        <button class="control-button control-button-special">Generate</button>
+        <button class="control-button control-generate">Generate</button>
       </div>
-      <canvas class="board" />
+      <canvas class="board"></canvas>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
   </body>

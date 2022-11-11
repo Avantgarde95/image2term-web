@@ -96,7 +96,7 @@ body {
   background-color: transparent;
 }
 
-.control-button-special {
+.control-generate {
   margin-top: 32px;
   border: 2px solid var(--color-yellow);
 }
